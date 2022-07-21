@@ -1,0 +1,62 @@
+<html>
+<head>
+
+    <tittle>Odio mi vida xD</tittle>
+</head>
+    <body>
+        <p>
+            Personas que compraron en la tienda :
+            <h4 id="declarar_Clientes"></h4>
+        </p>
+        <p>
+            Cliente 1:
+            <h4 id="Cliente_1"></h4>
+        </p>
+        <p>
+            Cliente 2:
+            <h4 id="Cliente_2"></h4>
+        </p>
+       
+        <p>
+            Cliente 3:
+            <h4 id="Cliente_3"></h4>
+        </p>
+        <p>
+            Cliente 4:
+            <h4 id="Cliente_4"></h4>
+        </p>
+        <hr>
+        </body>
+        <script>
+        
+        var Clientes= [ "José Enrique Salvador ", " Emmanuel Camacho Perez ", " Karla Jannete Murillo "," Tamara Cañedo Uribe"];
+
+        console.log(Clientes);
+        document.getElementById("declarar_Clientes").innerHTML=Clientes;
+
+        var primer_cliente =Clientes[0];
+    console.log(primer_cliente);
+    document.getElementById("Cliente_1").innerHTML =primer_cliente;
+
+    var segundo_cliente =Clientes[1];
+    console.log(segundo_cliente);
+    document.getElementById("Cliente_2").innerHTML =segundo_cliente;
+
+    var tercer_cliente =Clientes[2];
+    console.log(tercer_cliente);
+    document.getElementById("Cliente_3").innerHTML =tercer_cliente;
+
+    var cuarto_cliente =Clientes[3];
+    console.log(cuarto_cliente);
+    document.getElementById("Cliente_4").innerHTML =cuarto_cliente;
+        </script>
+    <hr>
+        <script>
+            Clientes.sort();
+            Console.log(Clientes);
+
+
+        </script>
+
+
+        </html>
